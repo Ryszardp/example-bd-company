@@ -1,0 +1,20 @@
+-empleados desc
+-nombre, oficio,localidad dptos donde trabajan los vendedores
+-listar los nombres empleados cuyo nombre termine con la letra "o"
+-seleccionar el nombre, oficio,salio de los empleados que trabajan en "leon"
+-seleccionar el nombre, salio, localidad, trabajan los empleados que tengan un salario entre 10,000 y 13,000
+-visualizar los dptos con mas de 5 empleados
+-mostrar nombre, salario y nombre dpto de los empleados que tengan el mimso oficio que leonel alfonso esquivel
+-mostrar el nombre,salario, y nombre del dpto de los empleados que tengn el mismo oficio que castillo mostes luis y que no tengan comisión
+-mostrar los datos de los empleados que trabajan en el dpto contabilidad ordenados nombre
+-nombre de los empleados que trabajan en leon y cuyo oficio sea analista o empleados
+-calcula el salario medio de todos los empleados
+-salario maximo de los empleados del depto ventas
+-calcula salario minimo del dpto de ventas
+-promedio del salario de los empleados del dpto contabilidad
+-cuantos empleados hay en el dpto 1
+-cuantos empleados hay en el dpto ventas
+-calcula el numero de empleados que no tienen comision
+-visualizar cuantos nombres de los empleados empiezan con la "A"
+-visualizar el numero de empleados de cada dpto
+-para cada oficio obtener la suma de salarios
