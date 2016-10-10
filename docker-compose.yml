@@ -1,0 +1,21 @@
+version: '2'
+services:
+  postgresdb:
+    image: postgres:9.5.4
+    environment:
+      - POSTGRES_PASSWORD=pascual
+      - PGDATA=/var/lib/postgresql/data
+    volumes:
+      - ./sql:/sql
+    volumes_from:
+      - data
+    ports:
+      - "5432:5432"
+  data:
+    image: ubuntu
+    command: /bin/bash -l
+    volumes:
+      - postgresdata:/var/lib/postgresql/data
+volumes:
+    postgresdata:
+      external: true
